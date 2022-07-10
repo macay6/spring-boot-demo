@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="macay.springbootmybatis.mapper.UserMapper">
+    <resultMap id="BaseInfoMap" type="macay.springbootmybatis.model.User">
+        <id column="id" property="id" />
+        <result column="name" property="name"/>
+        <result column="gender" property="gender" typeHandler="macay.springbootmybatis.handler.StringHandler"/>
+    </resultMap>
+    <select id="selectUserList"  resultMap="BaseInfoMap">
+        select id, name, gender from user
+    </select>
+</mapper>
