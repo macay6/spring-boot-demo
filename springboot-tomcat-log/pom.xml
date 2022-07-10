@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.macay</groupId>
-    <artifactId>spring-boot-tomcat-log</artifactId>
+    <artifactId>springboot-tomcat-log</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-tomcat-log</name>
+    <name>springboot-tomcat-log</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
