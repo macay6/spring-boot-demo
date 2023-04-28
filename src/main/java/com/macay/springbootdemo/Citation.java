@@ -10,8 +10,11 @@ package com.macay.springbootdemo;
 public class Citation{
 
     private String name;
+
     private String content;
+
     private String school;
+
     private Classes classes;
 
     public String getName() {

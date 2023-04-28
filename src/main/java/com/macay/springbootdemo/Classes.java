@@ -9,7 +9,7 @@ package com.macay.springbootdemo;
 public class Classes {
 
     /**
-     * 班级名称
+     *  班级名称
      */
     private String name;
 

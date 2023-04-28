@@ -12,7 +12,7 @@ public class AppTest {
     public static void main(String[] args) throws CloneNotSupportedException {
         Citation citation = new Citation();
         Classes classes = new Classes();
-        classes.setName("三级级二班");
+        classes.setName("三级级二班 ");
         citation.setClasses(classes);
         citation.setName("张三");
         citation.setContent(" 在2020学年第一学期中表现优秀，被评为三好学生。特发此状！");
