@@ -10,6 +10,7 @@ import com.sun.org.apache.xpath.internal.operations.String;
  */
 public class Test {
     private String name;
+
     private int age;
 
     public Test(String name) {
