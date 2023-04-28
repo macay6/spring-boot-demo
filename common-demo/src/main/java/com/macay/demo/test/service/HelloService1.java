@@ -17,7 +17,7 @@ public class HelloService1 {
     public void setMap() {
         MapCacheManage mapCacheManage = MapCacheManage.getInstance();
         HashMap<String, String> map = new HashMap<>();
-        map.put("朵朵", "我是哈哈哈");
+        map.put("朵朵", "我是哈哈");
         mapCacheManage.setMapCache(map);
     }
 }
