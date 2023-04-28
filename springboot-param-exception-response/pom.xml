@@ -11,7 +11,7 @@
     <groupId>com.macay</groupId>
     <artifactId>spring-boot-param-exception-response</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-param-exception-response</name>
+    <name>springboot-param-exception-response</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
