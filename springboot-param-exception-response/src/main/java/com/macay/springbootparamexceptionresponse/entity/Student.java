@@ -19,7 +19,7 @@ public class Student {
     @NotNull(message = "id不能为空")
     private Integer id;
 
-    @NotBlank(message = "姓名不能为空")
+    @NotBlank(message = "姓名不能为空 ")
     @Size(min = 6, max = 11, message = "账号长度必须是6-11个字符")
     private String name;
 
