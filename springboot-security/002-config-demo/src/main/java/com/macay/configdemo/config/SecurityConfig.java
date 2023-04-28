@@ -1,7 +1,6 @@
 package com.macay.configdemo.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
