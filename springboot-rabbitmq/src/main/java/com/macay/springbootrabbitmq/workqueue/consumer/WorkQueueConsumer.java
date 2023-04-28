@@ -20,7 +20,7 @@ public class WorkQueueConsumer {
 
     @RabbitListener(queues = WorkQueueConfig.QUEUE)
     public void receive1(Message msg, Channel channel) throws IOException {
-        System.out.println("consumer1 msg is :" + msg.getPayload());
+        System.out.println("consumer1 msg is  :" + msg.getPayload());
         channel.basicAck(((Long) msg.getHeaders().get(AmqpHeaders.DELIVERY_TAG)),true);
     }
 
