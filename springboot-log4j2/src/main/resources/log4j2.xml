@@ -10,7 +10,7 @@
         <property name="LOG_PATTERN" value="%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36}  - %msg%n" />
         <!-- 定义日志存储的路径，不要配置相对路径 -->
         <property name="FILE_PATH" value="/Users/macay/myProject/Notes/testlog" />
-        <!--项目名称-->
+        <!--项目名称 -->
         <property name="FILE_NAME" value="log4j2" />
     </Properties>
     <appenders>
