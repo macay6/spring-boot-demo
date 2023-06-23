@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.macay</groupId>
-    <artifactId>spring-boot-param-exception-response</artifactId>
+    <artifactId>springboot-param-exception-response</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-param-exception-response</name>
     <description>Demo project for Spring Boot</description>
