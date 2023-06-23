@@ -1,10 +1,10 @@
-package com.macay.springbootdemo;
+package com.macay.springbootmongo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootDemoApplicationTests {
+class SpringbootMongoApplicationTests {
 
     @Test
     void contextLoads() {
