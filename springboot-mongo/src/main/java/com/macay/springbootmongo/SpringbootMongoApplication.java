@@ -1,11 +1,13 @@
-package com.macay.springbootdemo;
+package com.macay.springbootmongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDemoApplication {
+public class SpringbootMongoApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoApplication.class, args);
+        SpringApplication.run(SpringbootMongoApplication.class, args);
     }
+
 }

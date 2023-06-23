@@ -121,11 +121,9 @@ public class CommentService {
         // update.inc("likenum",1);
         update.inc("likenum");
 
-
         //参数1：查询对象
         //参数2：更新对象
         //参数3：集合的名字或实体类的类型Comment.class
         mongoTemplate.updateFirst(query,update,Comment.class);
     }
-
 }
